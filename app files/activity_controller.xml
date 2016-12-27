@@ -1,0 +1,382 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.hot_wheel.Controller"
+    android:background="#00000000">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background_image"
+        android:scaleType="centerCrop"> </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/abc_primary_text_material_light"
+        android:scaleType="centerCrop"> </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/relative_layout"
+        android:background="#20000000">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="62dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            >
+
+            <!--LINEAR LAYOUT TOP : STARTS HERE-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <!--LINEAR LAYOUT TOP : rotate forward left-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/forwardleft"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/forwardleft"
+                            />
+
+                       <!-- <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/"
+                            android:id="@+id/forwardleft"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"/>-->
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <!--LINEAR LAYOUT TOP : forward-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:src="@drawable/forward"
+                        android:id="@+id/forward">
+
+
+                       <!-- <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/light"
+                            android:id="@+id/forward"
+                            android:layout_margin="20dp"/> -->
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <!--LINEAR LAYOUT TOP : rotate forward right-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        >
+
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/forwardright"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"
+                            android:id="@+id/forwardright"/>
+
+                       <!-- <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/light"
+                            android:id="@+id/forwardright"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"/>-->
+
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--LINEAR LAYOUT TOP : ENDS HERE-->
+
+
+            <!--LINEAR LAYOUT MIDDLE : STARTS HERE-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--LINEAR LAYOUT MIDDLE : left button-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="0dp"
+                            android:src="@drawable/left"
+                            android:id="@+id/left">
+
+                            <!--<ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ac3"
+                                android:id="@+id/left"
+                                android:layout_margin="20dp"/>-->
+
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <!--LINEAR LAYOUT MIDDLE :right button -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="0dp"
+                            android:src="@drawable/right"
+                            android:id="@+id/right">
+
+
+                           <!-- <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/socket"
+                                android:id="@+id/right"
+                                android:layout_margin="20dp"/>-->
+
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/zerospeed"
+                    android:clickable="true"
+                    android:id="@+id/zerospeed"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    />
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/zerosteer"
+                    android:clickable="true"
+                    android:id="@+id/zerosteer"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    />
+
+            </RelativeLayout>
+            <!--LINEAR LAYOUT MIDDLE : ENDS HERE-->
+
+            <!--LINEAR LAYOUT BOTTOM : STARTS HERE-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <!--LINEAR LAYOUT BOTTOM : rotate backward left-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/hotwheel2"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/backwardleft"/>
+
+                       <!-- <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/light"
+                            android:id="@+id/backwardleft"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentRight="true"/>-->
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <!--LINEAR LAYOUT BOTTOM : backward-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:src="@drawable/backward"
+                        android:id="@+id/backward">
+
+
+                       <!-- <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/light"
+                            android:id="@+id/backward"
+                            android:layout_margin="20dp"/>-->
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <!--LINEAR LAYOUT BOTTOM : rotate backward right-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        >
+
+
+
+                        <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/reversebutton"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/backwardright"/>
+
+                       <!-- <ImageView
+                            android:layout_width="78dp"
+                            android:layout_height="78dp"
+                            android:src="@drawable/light"
+                            android:id="@+id/backwardright"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"/>-->
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--LINEAR LAYOUT BOTTOM : ENDS HERE-->
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000"
+            >
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Disconnect"
+                android:id="@+id/button_dis"
+                android:background="@drawable/bar"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

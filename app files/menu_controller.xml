@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.android.hot_wheel.Controller">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never"
+        android:orderInCategory="9">
+        <menu>
+            <item
+                android:id="@+id/action_codes"
+                android:title="App" />
+
+            <item
+                android:id="@+id/action_about_maker"
+                android:title="Maker" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_lfr"
+        android:title="Line follower"
+        app:showAsAction="never"
+        android:orderInCategory="8"
+        />
+
+</menu>
