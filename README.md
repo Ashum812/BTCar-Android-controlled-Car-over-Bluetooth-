@@ -1,5 +1,5 @@
 # BlueTooth_Car: Android-controlled-Car-over-Bluetooth-
-<p> The main scope of the project is to learn coding language for AVR Microcontroller, using  bluetooth serial communication, interfacing the motors with microcontroller using H-bridge motor driver, and effective use of the Arduino IDE and Cadsoft Eagle Schematic and PCB designing Software, developing android application using Android Studio. </p>
+<p> The main scope of the project was to learn coding language for AVR Microcontroller, using  bluetooth serial communication, interfacing the motors with microcontroller using H-bridge motor driver, and effective use of the Arduino IDE and Cadsoft Eagle Schematic and PCB designing Software, developing android application using Android Studio. </p>
 <br>
 All Images :  
 <br>
