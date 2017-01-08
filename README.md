@@ -6,7 +6,6 @@ All Images :
 <div>
 <Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/Image1.jpg' alt='' height=120% width=120%> <br><br>
 <Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/Image_Old.jpg' alt=''> <br><br>
-<Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/Circuit_Dia.jpg' alt='' height=80% width=80% >
 <Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/Block_Dia.jpg' alt='' height=80% width=80% >
 </div><br><br>
 <table border="0" style="width:50px;border:0px;"><tr>
