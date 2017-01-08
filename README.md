@@ -11,6 +11,6 @@ All Images :
 </div><br><br>
 <table border="0" style="width:50px;border:0px;"><tr>
 <td><Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/screenshots%20of%20app/IMG_20151108_161822.jpg' height=500px width=350px alt=''><br></td>
-<td><Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/screenshots%20of%20app/device-2016-03-08-134739.png' height=300px width=100px alt=''><br></td>
-<td><Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/screenshots%20of%20app/device-2016-03-08-134759.png' height=300px width=100px alt=''><br></td>
+<td><Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/screenshots%20of%20app/device-2016-03-08-134739.png' height=500px width=350px alt=''><br></td>
+<td><Img src='https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/screenshots%20of%20app/device-2016-03-08-134759.png' height=500px width=350px alt=''><br></td>
 </tr></table>
