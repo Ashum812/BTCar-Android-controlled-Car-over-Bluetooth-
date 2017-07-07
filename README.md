@@ -3,9 +3,9 @@
 <br>
 All Images :  
 <br>
-<div>
-<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134633.png?raw=true' alt='' height=120% width=120%> <br><br>
-<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134739.png?raw=true' alt=''> <br><br>
-<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134745.png?raw=true' alt='' height=80% width=80% >
-<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134759.png?raw=true' alt='' height=80% width=80% >
+<div width=100%>
+<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134633.png?raw=true' alt='' width=40%>
+<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134739.png?raw=true' alt='' width=40%>
+<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134745.png?raw=true' alt='' width=40% >
+<Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134759.png?raw=true' alt='' width=40% >
 </div>
