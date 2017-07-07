@@ -3,7 +3,7 @@
 <br>
 All Images :  
 <br>
-<div class="imageContainer" width=100% margin-left=auto margin-right=auto>
+<div class="imageContainer" width=100% style="margin-left:auto;margin-right:auto;">
 <Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134633.png?raw=true' alt='' width=40%>
 <Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134739.png?raw=true' alt='' width=40%>
 <Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134745.png?raw=true' alt='' width=40% >
