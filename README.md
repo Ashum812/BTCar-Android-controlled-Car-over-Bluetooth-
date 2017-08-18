@@ -4,8 +4,11 @@
 <h2>All Images : </h2>
 <br>
 <div>
-<Img src="https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/Image1.jpg" alt='This hardware is controlled by android device' width=90% style="margin-left:5%"></div><br><br>
+<h3>I'm the hardware</h3>
+<Img src="https://raw.githubusercontent.com/a-mishra/Bluetooth_Car/master/Image1.jpg" alt='This hardware is controlled by android device' width=90% ></div><br><br>
 <div width=100% >
+</br>
+<h3>Me software</h3>
 <Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134633.png?raw=true' alt='' width=24% >
 <Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134739.png?raw=true' alt='' width=24% >
 <Img src='https://github.com/a-mishra/Bluetooth_Car/blob/master/screenshots%20of%20app/device-2016-03-08-134745.png?raw=true' alt='' width=24% >
